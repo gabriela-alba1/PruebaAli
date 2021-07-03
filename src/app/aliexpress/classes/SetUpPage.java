@@ -12,13 +12,13 @@ import java.util.Set;
 public class SetUpPage {
 
     private WebDriver driver;
-    //setProperty para Chrome
+    //setProperty for Chrome
     String driverChrome = "webdriver.chrome.driver";
     String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
-    //setProperty para IE
+    //setProperty for IE
     String driverIE = "webdriver.ie.driver";
     String iePath = System.getProperty("user.dir") + "\\drivers\\IEDriverServer.exe";
-    //setProperty para Firefox
+    //setProperty for Firefox
     String driverfirefox = "webdriver.gecko.driver";
     String firefoxPath = System.getProperty("user.dir") + "\\drivers\\geckodriver.exe";
 
